@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify Imersão</title>
 
-    <link rel="stylesheet" href="./styles/reset.css">
-    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./src/assets/styles/vars.css">
+    <link rel="stylesheet" href="./src/assets/styles/reset.css">
+    <link rel="stylesheet" href="./src/assets/styles/sidebar-footer.css">
+    <link rel="stylesheet" href="./src/assets/styles/main-content.css">
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"
         integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous" />
@@ -78,6 +80,41 @@
         <!-- final library -->
     </div>
     <!-- final sidebar -->
+    <!-- inicio conteudo principal -->
+    <main class="main-container">
+        <nav class="header__navigation">
+            <div class="navigation">
+                <button class="arrow-left">
+                    <img src="./src/assets/icons/small-left.png">
+                </button>
+                <button class="arrow-right">
+                    <img src="./src/assets/icons/small-right.png">
+                </button>
+            </div>
+            <div class="header__search">
+                <img src="./src/assets/icons/search.png">
+                <input type="text" id="search-input" maxlength="800" placeholder="O que você quer ouvir?">
+            </div>
+            <div class="header__login">
+                <button class="subscribe">Inscreva-se</button>
+                <button class="login">Entrar</button>
+            </div>
+
+        </nav>
+    </main>
+    <!-- final conteudo principal -->
+    <!-- inicio footer -->
+    <footer class="rodape">
+        <div class="rodape__content-text">
+            <h3 class="rodape-title">TESTAR O PREMIUM DE GRAÇA</h3>
+            <span class="rodape-text">Inscreva-se para curtir música ilimitada e podcasts sócom alguns anúncios. Não
+                precisa de cartão de crédito.</span>
+        </div>
+        <button class="rodape-button">
+            <span>Inscreva-se grátis</span>
+        </button>
+    </footer>
+    <!-- final footer -->
 </body>
 
 </html>
